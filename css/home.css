@@ -1,0 +1,82 @@
+:root {
+  background-color: rgb(245, 249, 253);
+  margin-left: 15%;
+  margin-right: 15%;
+  border: 3px solid red;
+}
+body {
+  background-color: rgb(243, 233, 255);
+  margin: 0; /* Loại bỏ lề */
+  padding-top: 2%; /* Loại bỏ padding */
+  padding-bottom: 2%;
+}
+
+.main-content {
+  font-size: 1vw;
+}
+.header-title h1 {
+  color: rgb(89, 51, 197);
+  text-align: center;
+  font-size: 3vw;
+  margin-top: 3%;
+}
+.header-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+.yellow {
+  color: rgb(255, 239, 210);
+  border-left: 5px solid yellow;
+}
+h5 {
+  padding-left: 5px;
+}
+.fix1 {
+  margin-bottom: 0;
+}
+.fix {
+  margin-top: 0;
+}
+.header-logo img {
+  height: 100%;
+  width: 25%;
+  display: flex;
+}
+.main-content {
+  background-color: rgb(119, 74, 216);
+  height: 100%;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 3%;
+  border: 10px solid rgb(119, 74, 216);
+  border-radius: 8px;
+  color: white;
+  padding-left: 20px;
+}
+
+.highlight {
+  background-color: rgb(252, 235, 180);
+  color: rgb(43, 9, 74);
+}
+
+.file-download {
+  text-align: center;
+}
+
+.file-download .Download {
+  background-color: rgb(249, 201, 39);
+  border: 10px solid rgb(249, 201, 39);
+  border-radius: 5px;
+  margin-top: 2%;
+  font-size: 20px; /* Điều chỉnh kích thước chữ */
+  padding: 10px; /* Điều chỉnh padding để phóng to nút */
+  width: 15%; /* Điều chỉnh chiều rộng của nút */
+}
+
+#footer p {
+  text-align: center;
+  font-size: 30px;
+}
